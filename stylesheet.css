@@ -52,47 +52,113 @@ body {
 }
 
 .header {
+    background-image: url("https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+    height: 85vh;
+    background-attachment: fixed;
     background-position: center;
-    background-size: cover;
-    padding: 0px;
-    margin-bottom: 60px;
-    display: block;
-    margin-top: 80px;
-    text-align: center;
 }
 
-.header img {
-    height: 10%;
-    width: 100%;
-}
 
 .header-content {
-    background-repeat: no-repeat;
-    background-size: cover;
     position: absolute;
-    top:50%;
+    top:40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .header-content h1 {
     text-align: center;
-    margin: 0;
     font-size: 4.5em;
     letter-spacing: .2em;
     color: white;
-    padding: 10rem 0;
-    mix-blend-mode: exclusion;
 }
 
 .about {
-    padding-top: 30px;
-    margin-right: -15px;
-    margin-left: -15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin: 60px 0px;
+    justify-items: center;
+}
+/*
+.about img {
+    height: 40%;
+    width: 80%;
+}
+*/
+.col3 {
+    text-align: center;
+    background-color:#f2f2f2;
+    padding-bottom:25px;
+    height: 70%;
 }
 
-.col-para {
-    display: block;
-    width: 33.33%;
-    background:black;
+.col3 p{
+    padding: 20px;
+    color: brown;
+}
+
+#boostrap {
+    color: green;
+}
+
+#responsive {
+    color: blue;
+}
+
+#parallax {
+    color: red;
+}
+
+.btn-green {
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btn-blue {
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btn-red {
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:5px;
+    margin-top:60px;
+}
+
+.col2-image {
+    background-color:#f2f2f2;
+    padding-bottom:25px;
+    max-width:500px;
+    margin:0 auto;
 }
