@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Voyage PreWork</title>
     </head>
     <body> 
-        <nav class="menu"> 
-            <div class="topnav"> 
-                <a href="#home">Homepage</a>
-                <a href="#aboutus">About Us</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
-                <a href="#external">External</a>
+        <!--Navigation Menu-->
+        <nav id="home" class="menu"> 
+            <div id="nav-menu" class="topnav"> 
+                <ul>
+                    <div id="myLinks">
+                        <li><a href="#home">Homepage</a></li>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home">External</a></li>
+                    </div>
+                </ul>
             </div>    
         </nav>
-        <div class="header">   
+
+        <!--Big Home Image-->
+        <div id="header-image" class="header">   
             <div class="header-content">
                 <h1>CONQUER</h1>
                 <p>Your Fears</p>
             </div>    
         </div>
-        <section class="about"> 
+
+        <!--About Us Section 3 Col-->
+        <section id="aboutus" class="about"> 
             <div class="col3">
                 <img src ="images/1-1.jpg">
                 <h2 id="boostrap">No Boostrap used</h2>
@@ -40,8 +52,10 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra vel purus sed efficitur. Duis cursus lectus a nulla sodales, nec porta nulla feugiat. Praesent ornare arcu ante, non congue metus congue id. Nunc pulvinar velit et est sagittis, vitae pulvinar mauris ultricies. Donec consectetur vulputate molestie. Ut a imperdiet dolor. Curabitur eget iaculis ligula, suscipit commodo arcu. Cras consequat dolor a sodales pellentesque.</p>
                 <a class="btn-red" href="#">Button Red</a>
             </div>
+
+            <!--About Us Section 2 Col-->
         </section>    
-            <div class="col2"> 
+            <div id="col-2" class="col2"> 
                 <div class="col2-image">
                     <img src="images/2-1.jpg">
                     <h2>Two Column Left Side</h2>
@@ -55,13 +69,16 @@
                 </div>    
             </div>
      
+            <!--Services Section-->
         <div id="services"> 
             <h2>Our Services</h2>
             <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id 
                 felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. 
                 Etiam a mi quis arcu varius condimentum.</p>
         </div>
-        <div class="col4">
+
+        <!--Services Section 4 Col-->
+        <div id="col-4" class="col4">
             <div class="col4-image" id="first-col">
                 <img src="images/4-1.jpg">
                 <h3>Column One</h3>
@@ -86,6 +103,7 @@
             </div>
         </div>
 
+        <!--On Big Column-->
         <div class="col1">  
             <img src="images/big.jpg">
             <h2>One Big Column</h2>
@@ -94,13 +112,14 @@
             <a href="#">Read More</a>
         </div>
 
-        <div class="contact">
+        <!--Contact Section-->
+        <div id="contact" class="contact">
             <h2>Contact Form</h2>
             <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id 
                 felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. 
                 Etiam a mi quis arcu varius condimentum.</p>
             <form action="#" method="POST" class="contact-form">
-                <div class="col2-form">
+                <div id="col-2-form" class="col2-form">
                     <div class="form1">
                         <input name="name" type="text" class="form" id="name" placeholder="Name">
                         <input name="email" type="email" class="form" id="email" placeholder="Email">
@@ -113,6 +132,12 @@
                 </div>
             </form>
         </div>
-        <footer>   </footer>
+        
+        <!--Footer-->
+        <footer> 
+            <h2>Use it Free!</h2>
+            <p>This is a free non Bootstrap template.<br>No backlink is required to use this layout.</p> 
+            <p>Copyright © 2019 Your Company Name | Design:</p>   
+        </footer>
     </body>
 </html>
