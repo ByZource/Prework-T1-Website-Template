@@ -11,8 +11,11 @@ A short description of the motivation behind the creation and maintenance of the
 Installation or Getting Started
 
 git clone https://github.com/Byzource/Prework-T1-Website-Template.git
+
 cd README.md
+
 npm install README.md
+
 npm start
 
 Usage
